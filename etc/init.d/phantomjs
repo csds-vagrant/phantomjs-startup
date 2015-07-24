@@ -5,9 +5,9 @@
 #
 ### BEGIN INIT INFO
 # Provides:          phantomjs
-# Required-Start:    $remote_fs $syslog $network selenium
+# Required-Start:    $remote_fs $syslog $network seleniumhub
 # Required-Stop:     $remote_fs $syslog $network
-# Should-Start:      selenium
+# Should-Start:      seleniumhub
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
 # Short-Description: Start phantomjs at boot time
